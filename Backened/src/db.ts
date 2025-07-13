@@ -1,7 +1,7 @@
 
 import mongoose, {model, Schema} from "mongoose";
 
-const MONGODB_URI = "mongodb+srv://Kratos:1234567890@cluster0.eyslykc.mongodb.net/brainly";
+const MONGODB_URI = "";
 
 mongoose.connect(MONGODB_URI)
   .then(() => {
